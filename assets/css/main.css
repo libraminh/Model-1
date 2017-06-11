@@ -5838,3 +5838,103 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+.btn-contact {
+  background: #efc889;
+  color: #fff;
+  font-size: 1.1em;
+  border: 3px solid #fff;
+  padding: 12px 50px;
+  margin-left: -10px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out; }
+  .btn-contact:hover {
+    background: #e9b35c;
+    color: #fff; }
+
+.home-wrap {
+  color: #fff; }
+
+.home-sections {
+  background: #a5937b; }
+
+.container {
+  width: 80%; }
+
+.wrap-header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.header-quote {
+  -webkit-transform: translateY(30%);
+  -ms-transform: translateY(30%);
+  transform: translateY(30%); }
+  .header-quote-title {
+    background: #efc889;
+    position: relative;
+    width: 100%;
+    height: 180px;
+    border: 10px solid #fff;
+    font-size: 1.4em;
+    padding: 10px 30px; }
+    .header-quote-title-photo {
+      width: 80px;
+      height: 80px;
+      display: block;
+      position: absolute;
+      bottom: -25%;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      border: 2px solid #fff;
+      border-radius: 50%; }
+  .header-quote-intro {
+    margin-top: 20px; }
+    .header-quote-intro h2 {
+      font-size: 1em; }
+
+.hello {
+  padding: 40px 0; }
+  .hello-intro {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px; }
+  .hello-main {
+    border-bottom: 1px solid #fff; }
+    .hello-main-box {
+      padding: 60px 10px;
+      font-size: 1.3em;
+      -webkit-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out; }
+      .hello-main-box:hover {
+        background: #baac99; }
+  .hello-form {
+    padding-bottom: 40px; }
+    .hello-form-box {
+      padding: 35px 25px 10px; }
+      .hello-form-box input {
+        padding: 25px 20px; }
+      .hello-form-box .form-message {
+        height: 400px; }
+
+@media (max-width: 992px) {
+  .header-quote-intro {
+    margin-top: 40px; } }
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%; }
+  .header-quote-title {
+    font-size: 1.3em; }
+  .hello-main-box {
+    padding: 20px 0;
+    margin: 20px 0;
+    border-radius: 5px; }
+    .hello-main-box:hover {
+      background: #baac99; } }

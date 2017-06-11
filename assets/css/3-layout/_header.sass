@@ -1,0 +1,37 @@
+.wrap-header
+  width: 100%
+  height: 100vh
+  background:
+    image: url(../img/banner.jpg)
+    repeat: no-repeat
+    size: cover
+    position: center
+
+.header-quote
+  transform: translateY(30%)
+
+  &-title
+    background: $accent-color
+    position: relative
+    width: 100%
+    height: 180px
+    border: 10px solid $white-color
+    font-size: 1.4em
+    padding: 10px 30px
+
+    &-photo
+      width: 80px
+      height: 80px
+      display: block
+      position: absolute
+      bottom: -25%
+      left: 50%
+      transform: translateX(-50%)
+      border: 2px solid $white-color
+      border-radius: 50%
+
+  &-intro
+    margin-top: 20px
+
+    h2
+      font-size: 1em

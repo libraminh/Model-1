@@ -1,0 +1,41 @@
+section.hello.text-center
+  .hello-intro.col-md-12
+    h2.text-uppercase Say Hello
+  
+  .hello-main.col-md-12
+    .row
+      .col-sm-4.col-md-4.hello-main-box
+        h3.text-uppercase: strong Telephone
+        p.hello-text We'd be delighted to talk anything through on 020 3289 4044
+      .col-sm-4.col-md-4.hello-main-box
+        h3.text-uppercase: strong Send A Note
+        p.hello-text Please complete the form below and we'll in touch
+      .col-sm-4.col-md-4.hello-main-box
+        h3.text-uppercase: strong Email
+        p.hello-text If you'd prefer, just email us at info@upbooking.com
+        
+  .hello-form.col-md-12.text-left
+    .row
+      .hello-form-box.col-sm-4.col-md-4
+        form
+          .form-group
+            label(for='exampleInputEmail1') Name (required)
+            input#exampleInputEmail1.form-control(type='text', placeholder='Name')
+
+      .hello-form-box.col-sm-4.col-md-4
+        form
+          .form-group
+            label(for='exampleInputEmail1') Email (required)
+            input#exampleInputEmail1.form-control(type='email', placeholder='Email')
+              
+      .hello-form-box.col-sm-4.col-md-4
+        form
+          .form-group
+            label(for='exampleInputEmail1') Telephone
+            input#exampleInputEmail1.form-control(type='text', placeholder='01234')
+              
+      .hello-form-box.col-sm-12.col-md-12
+        form
+          .form-group
+            label(for='exampleInputEmail1') Message
+            input#exampleInputEmail1.form-control.form-message(type='text')
